@@ -2,33 +2,29 @@
 
 A collection of practical Python tools designed to automate repetitive tasks, process files, and simplify everyday business workflows.
 
-## Planned Tools
+## Available Tools
 
-- Batch file renaming
-- PDF merging and splitting
-- Excel data cleaning
-- CSV processing
-- File and folder organization
-- Simple OCR workflows
+### Batch File Renamer
 
-## Goals
+A simple desktop application for safely renaming multiple files with automatic numbering.
 
-- Save time by reducing repetitive manual work
-- Provide simple and reusable automation scripts
-- Build practical solutions for real business needs
+#### Features
 
-## Technologies
+- Select any folder from the application
+- Preview changes before renaming
+- Preserve original file extensions
+- Choose a custom file prefix
+- Set the starting number
+- Detect possible naming conflicts
+- Display confirmation and completion messages
 
-- Python
-- pandas
-- openpyxl
-- PyMuPDF
-- Pillow
+![Batch File Renamer Preview](batch-file-renamer-preview.png)
 
-## Status
+#### How to Run
 
-This project is under active development. New automation tools and improvements will be added regularly.
+1. Download or clone this repository.
+2. Open the `file_tools` folder.
+3. Run:
 
-## License
-
-This project is licensed under the MIT License.
+```bash
+python batch_file_renamer.py
